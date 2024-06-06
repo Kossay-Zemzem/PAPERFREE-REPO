@@ -4,15 +4,8 @@ from matplotlib import pyplot as plt
 
 
 
-image_file = "OCR-Python/images/bechir.jpg"
+image_file = "OCR/images/nour.jpg"
 img = cv2.imread(image_file)
-# cv2.imshow("the image " , img)
-# cv2.waitKey(0)
-
-
-# im = Image.open(image_file)
-# print(im.size)
-# im.show()
 
 def display(im_path):
 
@@ -42,13 +35,13 @@ def display(im_path):
 
 
 
-# display(image_file)
+display(image_file)
 
 
 # INVERT THE IMAGE 
 inverted_image = cv2.bitwise_not(img)
-cv2.imwrite("OCR-Python/tempo/invertedimage.jpg", inverted_image)
-# display("OCR-Python/tempo/invertedimage.jpg")
+cv2.imwrite("OCR/tempo/invertedimage.jpg", inverted_image)
+display("OCR/tempo/invertedimage.jpg")
 
 #BINARISATION 
 def grayscale(image):
@@ -168,12 +161,12 @@ def rotateImage(cvImage, angle: float):
 
 
 # Deskew image
-def deskew(cvImage):
-    angle = getSkewAngle(cvImage)
-    return rotateImage(cvImage, -1.0 * angle)
+# def deskew(cvImage):
+#     angle = getSkewAngle(cvImage)
+#     return rotateImage(cvImage, -1.0 * angle)
 
-fixed = deskew(new)
-cv2.imwrite("OCR-Python/tempo/rotated_fixed.jpg", fixed)
+# fixed = deskew(new)
+# cv2.imwrite("OCR-Python/tempo/rotated_fixed.jpg", fixed)
 # display("OCR-Python/tempo/rotated_fixed.jpg")
 
 
