@@ -1,5 +1,6 @@
 from PIL import Image
 import pytesseract
+import cv2 
 from server import display
 from matplotlib import pyplot as plt
 import arabic_reshaper
@@ -7,7 +8,7 @@ from bidi.algorithm import get_display
 
 
 
-Carte = "OCR/images/nour.jpg"
+Carte = "images/nour.jpg"
 
 display(Carte)
 ocr_result = pytesseract.image_to_string(Image.open(Carte), lang='ara')

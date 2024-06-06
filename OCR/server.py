@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 
 
 
-image_file = "OCR/images/nour.jpg"
+image_file = "images/nour.jpg"
 img = cv2.imread(image_file)
 
 def display(im_path):
@@ -40,8 +40,8 @@ display(image_file)
 
 # INVERT THE IMAGE 
 inverted_image = cv2.bitwise_not(img)
-cv2.imwrite("OCR/tempo/invertedimage.jpg", inverted_image)
-display("OCR/tempo/invertedimage.jpg")
+cv2.imwrite("tempo/invertedimage.jpg", inverted_image)
+display("tempo/invertedimage.jpg")
 
 #BINARISATION 
 def grayscale(image):
