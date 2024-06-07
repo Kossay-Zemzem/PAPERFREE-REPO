@@ -143,6 +143,31 @@ function App() {
              
              ">Submit</button>
           </div>
+{/* Testing diffrent button desgign */}
+            <div className='mt-3 flex justify-center'>
+
+            <button type="submit" 
+            class="text-black
+            bg-zinc-100
+            hover: ease-in-out duration-500
+            hover:bg-opacity-50
+            hover:bg-custom-dark
+            hover:text-zinc-300  
+            focus:ring-zinc-300 
+            focus:ring-2 
+            focus:outline-none
+            focus:animate-jump animate-once animate-duration-500 
+            font-medium rounded-lg text-3xl 
+            text-sm w-full sm:w-auto 
+            px-3 py-2.5 
+            text-center
+            
+            
+            
+            ">Submit</button>
+            </div>
+          
+
         </form>
         {imageUrl && <img src={imageUrl} alt="Uploaded Image" />}
 
