@@ -73,7 +73,7 @@ function App() {
 
         <form onSubmit={SendRequestToChat} class="max-w-sm mx-auto">
           <div class="mb-5">
-            <input placeholder='Name' type="name" id="name" 
+            <input placeholder='Prenom' type="name" id="name" 
             class="bg-custom-dark border
              border-custom-border
              text-zinc-200 text-sm rounded-lg
@@ -91,11 +91,24 @@ function App() {
           </div>
           <div class="mb-5">
 
-            <input placeholder='Surname' type="surname" id="surname" class="bg-custom-dark border border-custom-border text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500  placeholder:text-center" required />
+            <input placeholder='Nom' type="surname" id="surname" class="bg-custom-dark border border-custom-border text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500  placeholder:text-center hover:scale-110 ease-in-out duration-300" required />
           </div>
           <div class="mb-5">
 
-            <input placeholder='Id Number' type="id" id="id" class="bg-custom-dark border border-custom-border text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 placeholder:text-center" required />
+            <input placeholder='Numero carte identité' type="text" id="id" inputMode='numeric' maxLength={8}
+            class="
+
+            bg-custom-dark border border-custom-border 
+            text-gray-900 text-sm rounded-lg 
+            focus:ring-blue-500 
+            focus:border-blue-500 block w-full p-2.5 
+            dark:bg-gray-700 
+            dark:border-gray-600 
+            dark:placeholder-gray-400 
+            dark:text-white 
+            dark:focus:ring-blue-500 
+            dark:focus:border-blue-500 placeholder:text-center hover:scale-110 ease-in-out duration-300
+            " required />
           </div>
 
 
