@@ -71,7 +71,7 @@ function App() {
     <div className="h-screen w-screen bg-cover bg-center " style={{ backgroundImage: `url('../public/images/header.png')` }}>
       <div className="image-upload-container h-full flex items-center align-middle justify-center ">
 
-        <form onSubmit={SendRequestToChat} class="max-w-sm mx-auto">
+        <form onSubmit={SendRequestToChat} class="max-sm mx-auto">
           <div class="mb-5">
             <input placeholder='Prenom' type="name" id="name" 
             class="bg-custom-dark border
@@ -125,7 +125,7 @@ function App() {
 
           </div>
 
-          <div className='mt-3 flex justify-center'>
+{/*           <div className='mt-3 flex justify-center'>
 
             <button type="submit" 
             class="text-white bg-gradient-button
@@ -142,22 +142,22 @@ function App() {
              dark:focus:ring-blue-800
              
              ">Submit</button>
-          </div>
+          </div> */}
 {/* Testing diffrent button desgign */}
             <div className='mt-3 flex justify-center'>
 
             <button type="submit" 
             class="text-black
-            bg-zinc-100
+            bg-white
+
             hover: ease-in-out duration-500
             hover:bg-opacity-50
             hover:bg-custom-dark
             hover:text-zinc-300  
-            focus:ring-zinc-300 
-            focus:ring-2 
-            focus:outline-none
-            focus:animate-jump animate-once animate-duration-500 
-            font-medium rounded-lg text-3xl 
+            hover:ring-zinc-300 
+            hover:ring-2 
+            hover:outline-none
+            font-medium rounded-lg
             text-sm w-full sm:w-auto 
             px-3 py-2.5 
             text-center
