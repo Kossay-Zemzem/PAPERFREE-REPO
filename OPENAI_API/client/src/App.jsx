@@ -68,10 +68,98 @@ function App() {
 
 
   return (
-    <div className="h-screen w-screen bg-cover bg-center " style={{ backgroundImage: `url('../public/images/header.png')` }}>
+    <div className="bg-fixed h-screen w-screen bg-cover bg-center " style={{ backgroundImage: `url('../public/images/header.png')`
+      
+     }}>
       <div className="image-upload-container h-full flex items-center align-middle justify-center ">
 
-        <form onSubmit={SendRequestToChat} class="max-sm mx-auto">
+        <form onSubmit={SendRequestToChat} class=" scale-125
+        max-lg mx-auto">
+          <div class="mb-5">
+            <input placeholder='Prenom' type="name" id="name" 
+            class="bg-custom-dark border
+             border-custom-border
+             text-zinc-200 text-sm rounded-lg
+             focus:ring-blue-500
+             focus:border-blue-500 block w-full p-2.5
+             dark:bg-gray-700
+             dark:border-gray-600
+             dark:placeholder-gray-400
+             dark:text-white
+             dark:focus:ring-blue-500
+             dark:focus:border-blue-500 
+             placeholder:text-center hover:scale-110 ease-in-out duration-300
+             
+             "required />
+          </div>
+          <div class="mb-5">
+            <input placeholder='Prenom' type="name" id="name" 
+            class="bg-custom-dark border
+             border-custom-border
+             text-zinc-200 text-sm rounded-lg
+             focus:ring-blue-500
+             focus:border-blue-500 block w-full p-2.5
+             dark:bg-gray-700
+             dark:border-gray-600
+             dark:placeholder-gray-400
+             dark:text-white
+             dark:focus:ring-blue-500
+             dark:focus:border-blue-500 
+             placeholder:text-center hover:scale-110 ease-in-out duration-300
+             
+             "required />
+          </div>
+          <div class="mb-5">
+            <input placeholder='Prenom' type="name" id="name" 
+            class="bg-custom-dark border
+             border-custom-border
+             text-zinc-200 text-sm rounded-lg
+             focus:ring-blue-500
+             focus:border-blue-500 block w-full p-2.5
+             dark:bg-gray-700
+             dark:border-gray-600
+             dark:placeholder-gray-400
+             dark:text-white
+             dark:focus:ring-blue-500
+             dark:focus:border-blue-500 
+             placeholder:text-center hover:scale-110 ease-in-out duration-300
+             
+             "required />
+          </div>
+          <div class="mb-5">
+            <input placeholder='Prenom' type="name" id="name" 
+            class="bg-custom-dark border
+             border-custom-border
+             text-zinc-200 text-sm rounded-lg
+             focus:ring-blue-500
+             focus:border-blue-500 block w-full p-2.5
+             dark:bg-gray-700
+             dark:border-gray-600
+             dark:placeholder-gray-400
+             dark:text-white
+             dark:focus:ring-blue-500
+             dark:focus:border-blue-500 
+             placeholder:text-center hover:scale-110 ease-in-out duration-300
+             
+             "required />
+          </div>
+          <div class="mb-5">
+            <input placeholder='Prenom' type="name" id="name" 
+            class="bg-custom-dark border
+             border-custom-border
+             text-zinc-200 text-sm rounded-lg
+             focus:ring-blue-500
+             focus:border-blue-500 block w-full p-2.5
+             dark:bg-gray-700
+             dark:border-gray-600
+             dark:placeholder-gray-400
+             dark:text-white
+             dark:focus:ring-blue-500
+             dark:focus:border-blue-500 
+             placeholder:text-center hover:scale-110 ease-in-out duration-300
+             
+             "required />
+          </div>
           <div class="mb-5">
             <input placeholder='Prenom' type="name" id="name" 
             class="bg-custom-dark border
