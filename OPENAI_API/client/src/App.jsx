@@ -65,8 +65,6 @@ function App() {
     }
   }
 
-
-
   return (
     <div>
       <header className=' h-28'>
@@ -118,14 +116,12 @@ function App() {
 
 
           <div >
-
             <input
               type="file"
               accept="image/png,image/jpeg"
               onChange={handleFileChange}
-              className="h-48 bg-slate-800 rounded-lg cursor-pointer"
+              className="h-48 bg-custom-dark rounded-lg cursor-pointer"
             />
-
 
           </div>
 
